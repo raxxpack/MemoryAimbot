@@ -10,7 +10,7 @@
 //This file has been online for quite a while so credits should be shared but im using this from NubTIK
 //So Credits to him and thanks
 
-class CHackProcess
+class HackProcess
 {
 public:
 	
@@ -118,4 +118,4 @@ public:
 	}
 };
 
-extern CHackProcess fProcess;
+extern HackProcess fProcess;
