@@ -10,6 +10,7 @@
 		5B072662191006CD006C7987 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B072661191006CD006C7987 /* main.cpp */; };
 		5B072664191006CD006C7987 /* MemoryAimbot.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B072663191006CD006C7987 /* MemoryAimbot.1 */; };
 		5B07266D19100872006C7987 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07266B19100872006C7987 /* Player.cpp */; };
+		5B07A6061913F71200085DB4 /* Aimbot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07A6041913F71200085DB4 /* Aimbot.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		5B07266A19100706006C7987 /* HackProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackProcess.h; sourceTree = "<group>"; };
 		5B07266B19100872006C7987 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		5B07266C19100872006C7987 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		5B07A6041913F71200085DB4 /* Aimbot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Aimbot.cpp; sourceTree = "<group>"; };
+		5B07A6051913F71200085DB4 /* Aimbot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aimbot.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +67,13 @@
 		5B072660191006CD006C7987 /* MemoryAimbot */ = {
 			isa = PBXGroup;
 			children = (
+				5B072663191006CD006C7987 /* MemoryAimbot.1 */,
 				5B07266A19100706006C7987 /* HackProcess.h */,
 				5B072661191006CD006C7987 /* main.cpp */,
-				5B072663191006CD006C7987 /* MemoryAimbot.1 */,
-				5B07266B19100872006C7987 /* Player.cpp */,
 				5B07266C19100872006C7987 /* Player.h */,
+				5B07266B19100872006C7987 /* Player.cpp */,
+				5B07A6051913F71200085DB4 /* Aimbot.h */,
+				5B07A6041913F71200085DB4 /* Aimbot.cpp */,
 			);
 			path = MemoryAimbot;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B07A6061913F71200085DB4 /* Aimbot.cpp in Sources */,
 				5B07266D19100872006C7987 /* Player.cpp in Sources */,
 				5B072662191006CD006C7987 /* main.cpp in Sources */,
 			);
